@@ -18,7 +18,15 @@ public class BrandController{
 
     @GetMapping("/findAll")
     public List<TbBrand> findAll(){
-        return brandService.queryAll();
+        //return brandService.queryAll();
+        return brandService.findAll();
     }
+
+    @GetMapping("/testPage")
+    public List<TbBrand> testPage(Integer page,Integer rows){
+        //return brandService.testPage(page, rows);
+        return (List<TbBrand>) brandService.findPage(page, rows).getRows();
+    }
+
 
 }
