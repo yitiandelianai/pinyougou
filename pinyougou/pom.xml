@@ -15,6 +15,12 @@
         <module>pinyougou-manage-web</module>
         <module>pinyougou-dao</module>
         <module>pinyougou-shop-web</module>
+        <module>pinyougou-content</module>
+        <module>pinyougou-portal-web</module>
+        <module>pinyougou-solr-import</module>
+        <module>pinyougou-search</module>
+        <module>pinyougou-search-web</module>
+        <module>pinyougou-item-web</module>
 
     </modules>
 
