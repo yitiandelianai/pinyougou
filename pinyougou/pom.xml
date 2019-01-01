@@ -21,6 +21,8 @@
         <module>pinyougou-search</module>
         <module>pinyougou-search-web</module>
         <module>pinyougou-item-web</module>
+        <module>pinyougou-user</module>
+        <module>pinyougou-user-web</module>
 
     </modules>
 
