@@ -23,7 +23,11 @@
         <module>pinyougou-item-web</module>
         <module>pinyougou-user</module>
         <module>pinyougou-user-web</module>
-
+        <module>pinyougou-cart</module>
+        <module>pinyougou-cart-web</module>
+        <module>pinyougou-order</module>
+        <module>pinyougou-pay</module>
+        <module>pinyougou-seckill</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -365,6 +369,7 @@
                     <version>2.2</version>
                 </plugin>
             </plugins>
+
         </pluginManagement>
     </build>
 </project>
